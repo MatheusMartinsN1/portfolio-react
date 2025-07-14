@@ -5,6 +5,5 @@ import { Props } from './index';
 export const P = styled.p<Props>`
   font-size: 14px;
   line-height: 22px;
-  color: ${(props) => (props.tipo === 'principal' ? '#282A35' : '#949494')}
-    #282a35;
+  color: ${(props) => (props.tipo === 'principal' ? '#282A35' : '#949494')};
 `;
